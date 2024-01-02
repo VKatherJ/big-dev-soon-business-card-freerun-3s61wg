@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: #b2fdb7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.container{
+    position: relative;
+    background-color: #ffff;
+    box-shadow: 15px solid #0000;
+    width: 65%;
+    height: 550px;
+    border-radius: 20px;
+    margin: 80px 0px 0px 350px;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.lateral, .debajo{
+    background-color: #2f7d33;
+    color: #fff;
+    width: 40%;
+}
+
+.lateral{
+    border-radius: 20px 0px 0px 0px;
+    position: absolute;
+    height: 72%;  
+    
+}
+.lateral ul{
+    margin-top: 250px;
+  
+    list-style: none;
+}
+.lateral .mail{
+    list-style-image: url('email-icon.svg');
+    line-height: 2rem;
+    margin-left: 20px;
+}
+.lateral .tel{
+    list-style-image: url('phone-icon.svg');
+    line-height: 2rem;
+    padding: 12px 0px 0px 0px;
+    margin-left: 20px;
+}
+.debajo {
+    border-radius: 0px 0px 0px 20px;
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+}
+.debajo ul{
+    
+    list-style: none;
+}
+.txt{
+    padding: 10px 0px 0px 0px;
+}
+.debajo .git{
+    list-style-image: url('github-icon.svg');
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 10px 10px;
+}
+.debajo .link{
+    list-style-image: url('linkedin-icon.svg');
+    float: left;
+    margin-right: 20px;
+    padding: 10px 10px;
+}
+.debajo .twi{
+    list-style-image: url('twitter-icon.svg');
+    float: left;
+    margin-right: 20px;
+    padding: 10px 10px;
+}
+.user img{
+    position: absolute;
+    width: 320px;
+    height: 450px;
+    margin: 30px 0px 0px 260px;
+}
+.des{
+    position: absolute;
+    z-index: 1;
+    left:60%;
+}
+.des h1{
+    color: #2f7d33;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.des h1 span{
+    display: block;
+    color: black;
+}
+.cont{
+    font-size: 15px;
+    width: 90%;
+ 
+}
